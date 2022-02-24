@@ -14,7 +14,7 @@ pipeline{
 			}
 			stage('deploy'){
 				steps{
-					echo "Hello World $DATE"
+					echo "Hello World $(date)"
 				
 				}
 			}
