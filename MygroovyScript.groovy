@@ -1,9 +1,10 @@
 pipeline{
 	agent any
-	stages{
-		environment { 
+	environment { 
         		Name = 'Aravind you are a RockStar'
     		}
+	stages{
+		
 			stage('Fuck you'){
 				steps{
 				echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
