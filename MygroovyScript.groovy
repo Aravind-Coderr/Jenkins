@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	stages{
-			stage('Fuck you'){
+			stage('Fuck you'){ 
 				steps{
 				sh echo "Fuck you Bitch"
 				}
